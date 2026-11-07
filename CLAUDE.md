@@ -19,6 +19,9 @@ leakage rules and the math-map rule are added with the scaffold (#2).
 - Small, focused changes; explain non-obvious code so I can learn from it
 - I work on two computers. Anything that must survive between sessions goes in CLAUDE.md
   or the GitHub issue, not in local memory.
+- Record major technical decisions as ADRs in docs/decisions/
+- Run the project's lint and test commands before saying a task is done (commands arrive
+  with the scaffold, #2)
 - Pin every GitHub Action to a full commit SHA with the version in a comment
 - After each PR, draft a devlog entry in docs/devlog/ named <issue-number>-short-name.md,
   following docs/devlog/TEMPLATE.md. Write "What I learned" only after I've reported my
