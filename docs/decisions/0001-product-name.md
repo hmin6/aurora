@@ -75,8 +75,10 @@ It is always written lowercase as `boreale` in code and URLs:
 - **Redirects.** Both repos are renamed. GitHub redirects the old URLs only as long as no
   new repo takes the old name, so `hmin6/aurora` and `hmin6/aurora-archive` must never be
   created again.
-- **Not reserved yet.** The Vercel subdomain and the PyPI name are free but unclaimed. The
-  scaffold (#2) and the first package (#3) take them. If either has gone by then, this ADR
-  is revisited.
+- **Not reserved yet.** `boreale.vercel.app` is free but unclaimed. It is claimed when the
+  Vercel project is created; if it has gone by then, this ADR is revisited. The PyPI name
+  only matters if Boreale is ever published as a package, and nothing in the plan does
+  that. `uv run boreale` works from the local project without it, so the PyPI name is not
+  reserved.
 - **Archive.** The archive's package name, User-Agent and docs change to the new name. Its
   devlog keeps "Aurora", because it is a record of what was true then.
